@@ -12,8 +12,13 @@ public:
         if(nums[0]<nums[n-1]){
               count++;
         }
-          
+         
+        if(count<=1){
+            return true;
+        }else{
+            return false;
+        }
         
-        return count<=1;
+        
     }
 };
